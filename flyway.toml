@@ -1,0 +1,10 @@
+[flyway]
+locations = [
+    "filesystem:sql",
+    "filesystem:repeteable"
+]
+
+[environments.development]
+url = "jdbc:postgresql://localhost:5434/SIGEBIO+"
+user = "postgres"
+password = "admin123"
